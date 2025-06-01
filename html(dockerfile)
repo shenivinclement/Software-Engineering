@@ -1,0 +1,4 @@
+MKDIR DEMO1
+CD DEMO1
+Docker build -t demo1
+docker run -d -p 8080:80 demo1
